@@ -1,0 +1,6 @@
+RewriteEngine on
+	
+
+RewriteCond %{REQUEST_URL} !^public
+
+RewriteRule ^(.*)$ public/41 [L]
